@@ -1,14 +1,12 @@
 import { ShowProducts } from "./Products.jsx";
-
+import "./App.css";
 
 function App() {
- 
-
-return (
-  <>
-    <h1>Welcome to the Products Page</h1>
-    <ShowProducts />
-  </>
-)
+  return (
+    <div className="app-shell">
+      <ShowProducts />
+    </div>
+  );
 }
+
 export default App;
